@@ -10,7 +10,8 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
-	padding:20px;
+	padding: 20px;
+	border-radius: 5px;
 }
 .postcard-header {
 	display: flex;
@@ -31,16 +32,19 @@ body {
 	padding: 10px;
 	width: 50%;
 }
-input{
-	border:none;
+input {
+	border: none;
 	border-bottom: 0.2mm solid grey;
-	
-
 }
-.body-left p:first-child{
+.body-left p:first-child {
 	margin-top: 0px;
-
 }
-.boton-envio{
+.postcard-footer {
+	display: flex;
 	justify-content: center;
+	align-items: center;
+}
+.boton-envio {
+	display: flex;
+	background: rgb(231, 213, 213);
 }
